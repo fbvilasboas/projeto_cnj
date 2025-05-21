@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: app-cnj
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    env: python
