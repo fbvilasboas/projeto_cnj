@@ -1,0 +1,4 @@
+flask
+pdfplumber
+openpyxl
+PyPDF2
