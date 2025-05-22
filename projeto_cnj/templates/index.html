@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Leitor de CNJ</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <title>Visualização de PDFs com CNJ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .pdf-container {
+            margin-bottom: 40px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .pagina {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .texto {
+            max-width: 600px;
+            white-space: pre-wrap;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+        mark {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Extrator de Processos CNJ</h1>
-    <form method="post" enctype="multipart/form-data">
-      <label for="pdfs">Selecione arquivos PDF:</label>
-      <input type="file" id="pdfs" name="pdfs" multiple required>
-      <button type="submit">Enviar</button>
+    <h1>Leitor de PDFs com destaque para CNJ</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdfs" multiple required>
+        <button type="submit">Enviar PDFs</button>
     </form>
 
     {% if resultados %}
-      <h2>Conteúdo dos Arquivos:</h2>
-      <form action="{{ url_for('baixar_xlsx') }}">
-        <button type="submit">Gravar Resultados (.xlsx)</button>
-      </form>
-      <br>
-      {% for resultado in resultados %}
-        <h3>Arquivo: {{ resultado.arquivo }}</h3>
-        {% for pagina in resultado.paginas %}
-          <div class="pagina">
-            <h4>Página {{ pagina.pagina }}</h4>
-            <pre>{{ pagina.texto | safe }}</pre>
-          </div>
+        <h2>Resultados:</h2>
+        <a href="{{ url_for('baixar_xlsx') }}">📥 Baixar planilha Excel com CNJs</a>
+
+        {% for resultado in resultados %}
+            <div class="pdf-container">
+                <h3>Arquivo: {{ resultado.arquivo }}</h3>
+                {% for pagina in resultado.paginas %}
+                    <div class="pagina">
+                        {% if pagina.imagem %}
+                            <div>
+                                <p><strong>Página {{ pagina.pagina }}</strong></p>
+                                <img class="zoomable" src="{{ url_for('static', filename='imagens/' + pagina.imagem) }}">
+                            </div>
+                        {% endif %}
+                        <div class="texto">
+                            {{ pagina.texto|safe }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         {% endfor %}
-      {% endfor %}
     {% endif %}
-  </div>
+
+    <script>
+        document.querySelectorAll("img.zoomable").forEach(img => {
+            img.addEventListener("click", () => {
+                img.classList.toggle("zoomed");
+            });
+        });
+    </script>
 </body>
 </html>
