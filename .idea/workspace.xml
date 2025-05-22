@@ -4,9 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="016d05d7-cc79-41aa-bcde-485b4e24d8bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="016d05d7-cc79-41aa-bcde-485b4e24d8bb" name="Changes" comment="app.py renomeado">
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3/pagina_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imagens/f666c6cb-9ca2-4682-a8d7-61b0a7cd8848_agravo2/pagina_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/729728ce-b1ec-46ea-8782-d6e3eaea07c6_agravo3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_processos.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_processos.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +57,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Batch.README.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.app_com_imagens.executor": "Run",
-    "Python.app_pdf2image.executor": "Run",
-    "Python.app_pypdf2.executor": "Run",
-    "Python.testarpdf.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Batch.README.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_com_imagens.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_pdf2image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_pypdf2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testarpdf.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -86,11 +110,38 @@
       <option name="presentableId" value="Default" />
       <updated>1747744084608</updated>
     </task>
+    <task id="LOCAL-00001" summary="README.md mergeado">
+      <option name="closed" value="true" />
+      <created>1747874109075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747874109075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="README.md mergeado">
+      <option name="closed" value="true" />
+      <created>1747876161422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747876161422</updated>
+    </task>
+    <task id="LOCAL-00003" summary="app.py renomeado">
+      <option name="closed" value="true" />
+      <created>1747876199539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747876199539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="README.md mergeado" />
+    <MESSAGE value="app.py renomeado" />
+    <option name="LAST_COMMIT_MESSAGE" value="app.py renomeado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
