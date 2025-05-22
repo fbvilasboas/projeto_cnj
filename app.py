@@ -106,8 +106,8 @@ def baixar_xlsx():
         return send_file(EXCEL_FILE, as_attachment=True)
     return "Arquivo não encontrado", 404
 
-
 if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
+
