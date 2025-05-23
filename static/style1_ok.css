@@ -24,16 +24,12 @@ form {
 }
 input[type="file"] {
   margin-bottom: 20px;
-  padding: 12px;
-  font-size: 1rem;
 }
 button {
-  padding: 14px 20px;
-  font-size: 1.1rem;
+  padding: 10px;
   background: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 button:hover {
